@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<!--Elaborado por Benjamín Poblano Martínez 
+		NRC:25060 Viernes de 11-15 hrs <:-)
+	-->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Esta es mi primer pagina web">
+	<meta name="author" content="Benjamin Poblano">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+	<title>Mi primer pagina web</title>
+</head>
+<style>
+	*{
+		margin:0;
+		padding: 0;
+	}
+	
+	header,nav,main,footer{
+		width: auto;
+		background-color: #F2F2F2;
+		padding: 50px;
+		margin: 0 auto;
+	}
+	
+	#h10{
+		text-align: center;
+	}
+	
+	nav{
+		padding: 10px;
+		display: flex;
+		background-color: #171717;
+		text-align: center;
+		margin: auto;
+	}
+	.navbar{
+		text-align: center;
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+
+	.navbar> li{
+		display: inline-block;
+		text-align: center;
+		margin: 10px;
+		flex-wrap: wrap;
+		list-style: none;
+	}
+	
+	#h10{
+		color: #CF0000;
+	}
+	
+	section{
+		width: 100%;
+		height: auto;
+		background-color:floralwhite;
+		margin: 20px auto;
+		padding: 20px 20px;
+	}
+	
+	#parrafo{
+		margin: 20px 50px;
+	}
+	
+	.p{
+		margin: 20px 50px;
+	}
+	
+	.enca{
+		color: blue;
+	}
+	
+	footer{
+			text-align: center;
+			color: white;
+			background-color: #272D2F;
+			height: 60px;
+		}
+	
+	a:link {
+	 color: white;
+	 text-decoration: none;
+	 font-weight: bolder;
+	}
+	
+	a:visited {
+	 color: brown;
+	 text-decoration: none;
+	 font-weight: bolder;
+	}
+	
+	a:active {
+	 color: salmon;
+	 text-decoration: none;
+	 font-weight: bolder;	
+	}
+	
+	a:hover {
+		color: greenyellow;
+		font-weight: bolder;
+		text-decoration: none;
+		font-style: italic;
+	}
+	
+</style>
+<body>
+	<header>
+		<h1 id="h10">Mi primera pagina web</h1>
+	</header>
+	
+	<nav>
+		<div class="navbar">
+			<li><a href="mi_primer_pagina.html">Mi primera pagina</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="imagenes.html">Imagenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="formularios.html">Formularios</a></li>
+			<li><a href="animate.html">Animación</a></li>
+			<li><a href="flexbox.html">FlexBox</a></li>
+		</div>
+	</nav>
+	
+	<main>
+		<section>
+			<h1 class="enca">Uso de encabezados en html</h1>
+			<h1>Titulo con h1 para resaltado y jerarquización</h1>
+			<div class="p"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis veniam adipisci deserunt provident officia sint.</p></div>
+			<h2>Titulo h2 para resaltado y jerarquizado</h2>
+			<div class="p"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quas libero, adipisci asperiores officiis sapiente.</p></div>
+			<h3>Titulo h3 para resaltado y jerarquizado</h3>
+			<div class="p"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt corporis quaerat, blanditiis, repudiandae repellat magni!</p></div>
+			<h4>Titulo h4 para resaltado y jerarquizado</h4>
+			<div class="p"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est modi molestiae earum ducimus optio quos?</p></div>
+			<h5>Titulo h5 para resaltado y jerarquizado</h5>
+			<div class="p"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius saepe autem assumenda, fuga ad, suscipit.</p></div>
+			<h6>Titulo h6 para resaltado y jerarquizado</h6>
+			<div class="p"><p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quis expedita, omnis eius esse. Mollitia.</p></div>
+		</section>
+		<section>
+			<h1>Uso de etiquetas de formato de texto, negritas, cursivas, eliminado, resaltado, subindice y superindice</h1>
+			<div id="parrafo"><p>Lorem <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b>ipsum dolor sit amet, consectetur adipisicing elit. Ea quasi numquam minus cum, natus modi. Cupiditate vero voluptate molestias facilis non alias,<i>Lorem ipsum dolor sit amet, consectetur adipisicing.</i> molestiae repudiandae quo at, autem tempora laboriosam commodi!</p>
+			<p>Lorem <del>Lorem ipsum dolor sit.</del>ipsum dolor sit amet, consectetur adipisicing elit. Quo illum ipsam porro ab culpa <mark>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus distinctio et magnam, doloremque dolores quia expedita sunt ea. Quibusdam quidem voluptates ea autem dolore nam eveniet omnis dolores incidunt perferendis.</mark>blanditiis aspernatur animi facere dolore labore impedit repellendus enim adipisci, earum eos, architecto sint laudantium fugiat.</p>
+			<p>La formula de dióxido de carbono es CO<sub>2</sub> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur veniam minima sunt, minus esse omnis. Sint repellendus neque est illum voluptatum error. Quidem velit deleniti corporis, ab error quae repellat! El teorema de pitagoras dice h<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup> donde a y b son catetos</p></div>
+		</section>
+	</main>
+	<footer>
+		<h5><i>Elaborado por Benjamín Poblano Martínez</i></h5>
+	</footer>
+</body>
+</html>

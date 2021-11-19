@@ -1,0 +1,205 @@
+@charset "utf-8";
+@import url('http://fonts.cdnfonts.com/css/graphik');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: 'Graphik', sans-serif;
+}
+
+header{
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 190px;
+	background-color: blue;
+}
+
+header> div h1{
+	font-size: 90px;
+	padding: 40px;
+	color: white;
+}
+
+main section {
+	width: 80%;
+	padding: 20px;
+	background-color: blue;
+	border: 5px outset #FFFFFF;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+
+main  {
+    background-color: chartreuse;
+    height: auto;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer{
+	padding: 10px;
+	background-color: #231F20;
+    color: #F2F2F2;
+	text-align: center;
+	margin: auto;
+}
+
+main section h2, main section h3 {
+	margin-top: 5px;
+	padding-bottom: 30px;
+	color: #F2F2F2;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+	margin-left: 0px;
+
+}
+
+nav{
+	padding: 10px;
+	display: flex;
+	background-color: #171717;
+	text-align: center;
+	margin: auto;
+}
+
+.footer{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+.navbar{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.navbar> li{
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+
+.contenedor-flexible{
+	background-color: white;
+	display: flex;
+}
+
+.contenedor-flexible >div,.contenedor-flexible1 >div,.contenedor-flexible2 >div,.contenedor-flexible3 >div,.contenedor-flexible4 >div,.contenedor-flexible5 >div,.contenedor-flexible6 >div,.contenedor-flexible7 >div{
+	width: 400px;
+	height: 50px;
+	background-color: fuchsia;
+	margin: 10px;
+	padding: 30px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.contenedor-flexible1 >div{
+	width: 30%;
+}
+
+.contenedor-flexible3 >div{
+	width: 20%;
+}
+
+.contenedor-flexible4 >div{
+	height: auto;
+}
+
+.contenedor-flexible5 >div{
+	height: auto;
+}
+
+.contenedor-flexible6 >div{
+	width: 300px;
+}
+
+.contenedor-flexible7 >div{
+	width: 200px;
+	height: 200px;
+}
+
+.contenedor-flexible1{
+	background-color: white;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.contenedor-flexible2{
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+
+.contenedor-flexible3{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-flexible4{
+	background-color: white;
+	display: flex;
+	height: 400px;
+	align-items: stretch;
+}
+
+.contenedor-flexible5{
+	background-color: white;
+	display: flex;
+	height: auto;
+	align-items: baseline;
+}
+
+.contenedor-flexible6{
+	background-color: white;
+	display: flex;
+	height: auto;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.contenedor-flexible7{
+	background-color: white;
+	display: flex;
+	height: 600px;
+	justify-content: center;
+	align-items: center;
+}
+
+a:link {
+	 color: #FFFFFF;
+	 text-decoration: none;
+}
+
+a:visited {
+	 color: brown;
+	 text-decoration: none;
+}
+a:active {
+	 color: salmon;
+	 text-decoration: none;	
+}
+a:hover {
+	color: greenyellow;
+	font-style: italic;
+	text-decoration: none;
+}
+

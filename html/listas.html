@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+	<!--Elaborado por Benjamín Poblano Martínez 
+		NRC:25060 Viernes de 11-15 hrs <:-)
+	-->
+<head>
+<meta charset="utf-8">
+<title>Listas en html</title>
+</head>
+<style>
+	*{
+		margin:0;
+		padding: 0;
+	}
+	dt{
+		font-weight: bold;
+		font-size: 24px;
+		color: blue;
+	}
+	h1,h2{
+		font-size: 48px;
+		color: black;
+		
+	}
+	h2{
+		font-size: 36px;
+	}
+	
+	header,nav,main,footer{
+		width: auto;
+		background-color: chartreuse;
+		padding: 50px;
+	}
+	nav{
+		padding: 10px;
+		display: flex;
+		background-color: #171717;
+		text-align: center;
+		margin: auto;
+	}
+	.navbar{
+		text-align: center;
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+
+	.navbar> li{
+		display: inline-block;
+		text-align: center;
+		margin: 10px;
+		flex-wrap: wrap;
+		list-style: none;
+	}
+	a:link {
+	 color: white;
+	 text-decoration: none;
+	 font-weight: bolder;
+		}
+	a:visited {
+	 color: brown;
+	 text-decoration: none;
+	 font-weight: bolder;
+		}
+	a:active {
+	 color: salmon;
+	 text-decoration: none;
+	 font-weight: bolder;	
+		}
+	a:hover {
+	color: greenyellow;
+	font-weight: bolder;
+	text-decoration: none;
+	font-style: italic;
+		}
+	main{
+		background-color: aliceblue;
+		height: auto;
+		width: auto;
+	}
+	footer{
+		background-color: dimgray;
+		height: 60px;
+	}
+	section{
+		width: 100%;
+		height: auto;
+		background-color:floralwhite;
+		margin: 20px 10px;
+		padding: 20px 20px;
+	}
+	ul,ol{
+		margin: 50px;
+	}
+	dl{
+		margin: 20px;
+	}
+	dt{
+		margin: 10px;
+	}
+	dd{
+		margin: 20px 50px;
+	}
+	header{
+		text-align: center;
+	}
+	footer{
+		text-align: center;
+	}
+	h4{
+		color: aliceblue;
+	}
+</style>
+<body>
+	<header>
+		<h1>LISTAS EN HTML</h1>
+	</header>
+	<nav>
+		<div class="navbar">
+			<li><a href="mi_primer_pagina.html">Mi primera pagina</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="imagenes.html">Imagenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="formularios.html">Formularios</a></li>
+			<li><a href="animate.html">Animación</a></li>
+			<li><a href="flexbox.html">FlexBox</a></li>
+		</div>
+	</nav>
+	<main>
+		<section>
+  			<h2>Lista desordenada o de viñetas</h2>
+				<ul>
+					<li>México</li>
+					<li>España</li>
+					<li>Argentina</li>
+					<li>Guatemala</li>
+					<li>Italia</li>
+				</ul>
+ 	   </section>
+	   <section>
+		   <h2>Listas ordenadas o con viñetas numeradas</h2>
+		   		<ol>
+					<li>Grecia</li>
+					<li>Bolivia</li>
+					<li>Canada</li>
+					<li>Australia</li>
+					<li>México</li>
+				</ol>
+	  </section>
+  	  <section>
+	  	<h2>Lista mixta</h2>
+		  		<ul>
+					<li>México
+						<ol>
+							<li>Puebla</li>
+							<li>Veracruz</li>
+							<li>Baja California</li>
+							<li>Oaxca</li>
+				    	</ol>
+				</li>
+				<li>España
+					<ol>
+						<li>Sevilla</li>
+						<li>Madrid</li>
+						<li>Barcelona</li>
+						<li>Oaxca</li>
+				    </ol>
+				</li>
+				<li>Argentina
+					<ol>
+						<li>Buenos Aires</li>
+						<li>Córdoba</li>
+						<li>Rosario</li>
+						<li>Mar del Plata</li>
+				    </ol>
+				</li>	
+				<li>Guatemala
+					<ol>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Baja California</li>
+						<li>Oaxca</li>
+				    </ol>
+				</li>	
+				<li>Italia
+					<ol>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Baja California</li>
+						<li>Oaxca</li>
+				    </ol>
+				</li>	
+	    </ul>
+	</section>
+	<section>
+		<h2>Lista de descripción</h2>
+		<dl>
+			<dt style="font-style: italic";>Hosting</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laudantium, quam fugiat laborum est similique quod officia aut ab explicabo!
+			</dd>
+			<dt>Dominio</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam fugit dolores rem eaque, temporibus quaerat beatae. Deleniti nobis magni natus ipsa veniam quasi, laudantium praesentium.
+			</dd>
+			<dt style="font-weight: normal">Sitio Web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facere soluta, ratione hic officia placeat ipsum, optio recusandae rem reiciendis dolores harum, alias nam commodi neque excepturi consequuntur. Accusamus, perspiciatis.
+			</dd>
+			<dt>Sistema web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem quibusdam nihil exercitationem animi maiores, reiciendis doloribus magni voluptate eveniet!
+			</dd>
+		</dl>
+	</section>
+	<section>
+		<h2>Lista con viñeta de imagen</h2>
+		<ul style="list-style-image: url('../image/user.png')">
+			<li>Hugo Magos</li>
+			<li>Alvaro Morales</li>
+			<li>Sofía Gomez</li>
+			<li>Monserrat Flores</li>
+			<li>Israel Hernadez</li>
+		</ul>
+	</section>
+	</main>
+	<footer>
+		<h4>Elaborado por Benjamín Poblano Martínez</h4>
+	</footer>
+</body>
+</html>
