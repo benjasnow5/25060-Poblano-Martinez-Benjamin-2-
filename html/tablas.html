@@ -8,14 +8,17 @@
 	<title>Tablas</title>
 	<style type="text/css">
 		*{
-			margin: 0px;
-			padding: 0px;
+			padding: 0;
+    		margin: 0;
+    		-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    		box-sizing: border-box;
 		}
 		header,nav,main,footer{
-			width: 960px;
+			width: auto;
 			background-color: #F2F2F2;
 			padding: 50px;
-			margin: 0px auto;
+			margin: 0 auto;
 		}
 		
 		h1{
@@ -71,9 +74,10 @@
 		}
 		
 		section{
-			width: 760px;
+			width: 100%;
 			height: auto;
-			margin: 20px auto;
+			background-color:floralwhite;
+			margin: 20px 10px;
 			padding: 20px 20px;
 		}
 		
@@ -450,7 +454,7 @@
 	        </tfoot>
 	      </table>
   </section>
-		<section>
+		<section style="overflow-x: auto">
 		  <h2>Tabla con resaltado flotante</h2>
 		  <table id="t05" border="1">
 		    <thead>
